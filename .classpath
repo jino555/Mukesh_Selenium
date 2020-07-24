@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_241"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/Jino_testing/Test Automation/Extent Reports/2.40/extentreports-2.40.2.jar"/>
+	<classpathentry kind="lib" path="E:/Jino_testing/Test Automation/Extent Reports/2.40/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jino/Desktop/Flash.jar"/>
+	<classpathentry kind="lib" path="E:/Jino_testing/Test Automation/Selenium/selenium 3.141.59/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jino/Desktop/New folder/opencsv-2.3.jar"/>
+	<classpathentry kind="lib" path="E:/Jino_testing/Test Automation/Commons email/commons-email-1.5/commons-email-1.5.jar"/>
+	<classpathentry kind="lib" path="E:/Jino_testing/Test Automation/Commons email/commons-email-1.5/commons-email-1.5-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Jino_testing/Test Automation/Commons email/commons-email-1.5/commons-email-1.5-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Jino_testing/Test Automation/Commons email/commons-email-1.5/commons-email-1.5-tests.jar"/>
+	<classpathentry kind="lib" path="E:/Jino_testing/Test Automation/Commons email/commons-email-1.5/commons-email-1.5-test-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Jino_testing/Test Automation/Commons email/activation.jar"/>
+	<classpathentry kind="lib" path="E:/Jino_testing/Test Automation/Commons email/mail.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

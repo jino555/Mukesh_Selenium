@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <parameter name="OS" value="Mac"/>
+  <parameter name="build" value="UAT"/>
+  <parameter name="device" value="Google Pixel 3 XL"/>
+  <test name="Test3(failed)" parallel="classes">
+    <parameter name="browser" value="Safari"/>
+    <classes>
+      <class name="SeleniumGridwithBrowserstack.testcase2">
+        <methods>
+          <include name="firefoxDocker"/>
+          <include name="startBrowser"/>
+          <include name="firefoxDockerzal"/>
+        </methods>
+      </class> <!-- SeleniumGridwithBrowserstack.testcase2 -->
+      <class name="SeleniumGridwithBrowserstack.testcase1">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="chromeDocker"/>
+          <include name="chromeDockerZal"/>
+        </methods>
+      </class> <!-- SeleniumGridwithBrowserstack.testcase1 -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->

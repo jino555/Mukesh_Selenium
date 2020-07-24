@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel ="classes">
+
+<parameter name="build" value="UAT" />  
+
+ <parameter name="OS" value="iOS"  />
+
+ <parameter name="device" value= "iPhone 8 Plus" />
+ 
+ 
+<test thread-count="1" name="Test1">
+     
+ <parameter name="browser" value="chrome"  />
+ 
+ 
+    <classes>
+      
+     
+     <class name="SeleniumGridwithBrowserstack.testcase1"/>
+       <class name="SeleniumGridwithBrowserstack.testcase2"/>
+      
+    </classes>
+    
+    
+   </test>
+     
+     
+     <test thread-count="1" name="Test2">
+     
+ <parameter name="browser" value="firefox"  />
+ 
+ 
+    <classes>
+      
+     
+     <class name="SeleniumGridwithBrowserstack.testcase1"/>
+       <class name="SeleniumGridwithBrowserstack.testcase2"/>
+      
+    </classes>
+    
+    
+   </test>
+   
+   
+   
+   <test thread-count="1" name="Test3">
+     
+ <parameter name="browser" value="Safari"  />
+ 
+ 
+    <classes>
+      
+     
+     <class name="SeleniumGridwithBrowserstack.testcase1"/>
+       <class name="SeleniumGridwithBrowserstack.testcase2"/>
+      
+    </classes>
+    
+    
+   </test>
+   
+</suite> <!-- Suite -->
