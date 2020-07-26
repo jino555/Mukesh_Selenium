@@ -19,6 +19,7 @@ public class BaseClassTest1 extends BaseClass {
 		driver.findElement(By.id("pass")).sendKeys("9734444");
 		System.out.println("Details entered");
 	}
+	
 
 	@Test
 	public void verifyTitle() throws InterruptedException {
